@@ -3,7 +3,11 @@
 
 
 class Base:
-    """Represent the base class"""
+    """Represent the base class
+    Attributes:
+        private class attribute:
+            __nb_objects (int): Number of instantiated Bases.
+    """
     __nb_objects = 0
 
     def __init__(self, id=None):
